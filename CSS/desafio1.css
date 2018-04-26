@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  background-color: #383838;
 }
 .header{
   background-color: #273B47;
@@ -42,6 +43,13 @@ body{
   background: linear-gradient(to left,#fe344e,#ff7250);
   cursor: pointer;
   text-decoration: none;
+}
+
+.boton{
+  background: rgba(236, 234, 234, 0.7);
+  margin:0;
+  height: 20px;
+  border-radius: 0; 
 }
 
 label{
@@ -143,4 +151,14 @@ width: 300px;
 .logo h4{
   display: inline-block;
   margin-left: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Numeropag{
+  margin-right:20px;
 }
